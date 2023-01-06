@@ -1,0 +1,263 @@
+    * {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    header {
+        background-image: url('images/banner/banner3.png');
+        width: 100%;
+        height: 780px;
+        text-align: right;
+        margin-bottom: 131px;
+    }
+    
+    .nav-text {
+        margin-right: 200px;
+        padding-top: 140px;
+        margin-left: 845px;
+        color: white;
+    }
+    
+    .nav-text-title {
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 65px;
+        margin-bottom: 24px;
+    }
+    
+    .nav-text-para {
+        margin-bottom: 32px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        margin-left: 88px;
+    }
+    
+    .nav-text-btn {
+        padding: 21px 26px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: #005FAC;
+        border-radius: 5px;
+        border: 0px;
+        cursor: pointer;
+    }
+    
+    .nav-text-btn:hover {
+        background-color: darkblue;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+    }
+    /* Faillure Sections CSS */
+    
+    section {
+        display: flex;
+        margin-left: 250px;
+        margin-right: 250px;
+        gap: 87px;
+        align-items: center;
+        margin-bottom: 130px;
+        /* margin-top: 80px; */
+        /* align-items: center; */
+    }
+    
+    .sec-right-title {
+        font-weight: 700px;
+        font-size: 40px;
+        font-style: normal;
+        margin-bottom: 24px;
+    }
+    
+    .sec-left {
+        width: 569px;
+        height: 723.3px;
+    }
+    
+    .sec-right-para {
+        margin-bottom: 16px;
+        color: #444343;
+        font-style: normal;
+        /* font-weight: 400; */
+        font-weight: 400;
+        font-size: 15px;
+    }
+    
+    .sec-mark {
+        display: flex;
+        gap: 5px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #444343;
+        /* margin-right: 0; */
+    }
+    
+    .para1 {
+        font-weight: 400;
+        /* font-size: 19px; */
+    }
+    /* MY PLAN */
+    
+    .plans {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        /* identical to box height */
+        text-align: center;
+        /* Dark 01 */
+        color: #151414;
+        margin-bottom: 50px;
+    }
+    /* PLANS EXAMPLES */
+    
+    .planexample {
+        display: flex;
+        justify-content: center;
+        gap: 88px;
+        margin-bottom: 130px;
+    }
+    
+    .plan-exp1 {
+        text-align: center;
+    }
+    
+    .plan-title {
+        font-weight: 700;
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 3px;
+    }
+    
+    .plan-disc {
+        font-weight: 500;
+        font-size: 25px;
+        color: #737272
+    }
+    /* Hardwork section */
+    
+    .hardwork {
+        display: flex;
+        justify-content: center;
+        margin: 0px 168px 0px 168px;
+        align-items: center;
+        gap: 30px;
+        text-align: right;
+        margin-bottom: 130px;
+    }
+    
+    .hardwork-right-title {
+        font-weight: 600;
+        font-size: 44px;
+    }
+    
+    .hardwork-right-para {
+        font-weight: 400;
+        color: #151414;
+        font-size: 16px;
+    }
+    /* Banner */
+    
+    .banner {
+        margin-left: 230px;
+        margin-right: 230px;
+        width: 1140px;
+        height: 300px;
+        background-image: url('images/watch.png'), url('images/gradient1.png');
+        border-radius: 5px;
+        padding-top: 59px;
+        padding-left: 64px;
+        background-repeat: no-repeat;
+        background-blend-mode: exclusion;
+        margin-bottom: 130px;
+    }
+    
+    .banner-title {
+        font-weight: 700;
+        font-size: 40px;
+        color: white;
+        margin-bottom: 24px;
+    }
+    
+    .banner-btn {
+        font-weight: 600;
+        font-size: 20px;
+        padding: 18px 36px;
+        color: #005FAC;
+        cursor: pointer;
+    }
+    
+    .banner-btn:hover {
+        background-color: #005FAC;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+    }
+    /* Footer */
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        width: 1600px;
+        height: 400px;
+        padding-top: 100px;
+        gap: 289px;
+    }
+    
+    .footer-title {
+        font-weight: 700;
+        font-size: 45px;
+        margin-bottom: 12px;
+    }
+    
+    .footer-cont {
+        margin-bottom: 12px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    .footer-icons {
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+    }
+    
+    .footer-right {
+        /* display: unset; */
+    }
+    
+    .subs-title {
+        font-weight: 600;
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+    
+    .subs-mail {
+        font-weight: 400;
+        font-size: 18px;
+        padding: 21px 21px;
+        background: transparent;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-bottom: 12px;
+    }
+    
+    .subs-btn {
+        font-weight: 600;
+        font-size: 20px;
+        padding: 21px 36px;
+        color: white;
+        background: #005FAC;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .subs-btn:hover {
+        background-color: white;
+        color: #005FAC;
+    }
